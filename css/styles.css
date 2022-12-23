@@ -50,7 +50,7 @@ ol {
 }
 /* header */
 .container {
-  width: 1152px;
+  width: 1158px;
   padding-left: 12px;
   padding-right: 12px;
   margin: 0 auto;
@@ -62,6 +62,7 @@ ol {
   display: flex;
   align-items: center;
   margin-left: auto;
+  justify-content: space-between;
 }
 
 .logo-link {
@@ -87,14 +88,17 @@ ol {
   color: var(--main-comand-bg-color);
 }
 .page-header {
+  
 }
 .nav-list {
 }
 .logo-link {
+  
 }
 .header-list {
   display: flex;
   margin-left: 76px;
+  justify-content: space-between;
 }
 
 .item:not(:last-child) {
