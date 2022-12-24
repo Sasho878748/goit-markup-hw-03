@@ -51,8 +51,8 @@ ol {
 /* header */
 .container {
   width: 1158px;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
   outline: 1px solid red;
   /* display: flex; */
@@ -76,9 +76,9 @@ ol {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-logo-color2);
-  flex: none;
+  /* flex: none;
   order: 1;
-  flex-grow: 0;
+  flex-grow: 0; */
 }
 
 .studio-logo {
@@ -91,6 +91,8 @@ ol {
   
 }
 .nav-list {
+  display: flex;
+  align-items: center;
 }
 .logo-link {
   
