@@ -93,6 +93,7 @@ button {
   color: var(--main-comand-bg-color);
 }
 .page-header {
+  border-bottom: 1px solid #E7E9FC;
 }
 .nav-list {
   display: flex;
